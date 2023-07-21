@@ -1,0 +1,76 @@
+html,body{
+    width:100%;
+    margin:0;
+    height: 100%;   
+}
+
+.container {
+    background-color: grey;
+    overflow: hidden;  
+}
+
+.inputStyle {
+    margin: 20px 40px;   
+}
+.inputStyle input {
+    width: 100%;
+}
+
+.showContainer {
+    background-color: white;
+    
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mainPicture {
+    display: block;
+    width: 800px;
+    height: 150px;
+    margin: 50px;
+    background-color:grey;
+}
+
+.title {
+    font-size: 30px;
+}
+
+
+.listContainer {
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin: 40px;
+    overflow: auto;
+}
+
+.episodeContainer {
+    
+    height:360px;
+    background-color: white;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redBorder {  
+    border: 2px solid red;
+}
+
+.episodeContainer:last-child {
+    margin-bottom: 40px;
+}
+
+.picture {
+    width: 200px;
+    height: 280px;
+    margin: 20px 0;
+    background-color: grey;
+    text-align: center;
+}
+
+
+
